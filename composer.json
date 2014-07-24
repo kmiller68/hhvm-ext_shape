@@ -14,7 +14,7 @@
     "extra": {
         "apt-get": {
             "Ubuntu": {
-                "14.04": ["libshp"]
+                "14.04": ["libshp-dev"]
             }
         }
     }
