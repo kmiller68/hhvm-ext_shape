@@ -1,0 +1,21 @@
+{
+    "name": "kmiller68/hhvm-shp",
+    "description": "A test composer version of hhvm-ext_shape",
+    "type": "extension",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kmiller68/debian_installer.git"
+        }
+    ],
+    "require": {
+        "kmiller68/debian-installer": "dev-master"
+    },
+    "extra": {
+        "apt-get": {
+            "Ubuntu": {
+                "14.04": ["libshp"]
+            }
+        }
+    }
+}
